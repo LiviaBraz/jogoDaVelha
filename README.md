@@ -1,5 +1,5 @@
 # Jogo da Velha 
 
-Projeto simples de jogo da velha feito em um dos bootcamps da DIO :]
+Desafio de jogo da velha feito durante a Academia Java da Atos :]
 
 Acesse-o por aqui: <a href="https://liviabraz.github.io/jogoDaVelha/"> Jogo da Velha </a>
