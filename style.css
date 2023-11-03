@@ -3,6 +3,53 @@ body {
     background-color: #d2f9f9;
 }
 
+.btn_multiplayer {
+    margin-top: 100px;
+    width: 400px;
+    height: 80px;
+    background: #1ab3b3;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.btn_computer {
+    width: 400px;
+    height: 80px;
+    background: #1ab3b3;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    margin-top: 10px; 
+    display: block; 
+    
+}
+
+.btn_reiniciar {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background: #1ab3b3;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+}
+
+.centro-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Torna o contêiner com altura total da janela */
+}
+
+/* Estilo dos quadrados do jogo */
 .quadrado {
     text-align: center;
     width: 50px;
@@ -15,15 +62,8 @@ body {
     color: #eee;
 }
 
-.jogador, .vencedor {
+.jogador,
+.vencedor {
     font-size: 30px;
     margin-top: 10px;
-}
-
-button {
-    margin-top: 10px;
-    width: 100px;
-    height: 30px;
-    background: #1ab3b3;
-    cursor: pointer;
 }
